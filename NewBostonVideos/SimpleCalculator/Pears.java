@@ -3,34 +3,23 @@
  * Pears class is for the calculator.
  *
  * Jason Wheaton
- * @version 10-19
+ * @version 10-23
  */
 
 import java.util.Scanner;
 
-class Pears
-{
-    // instance variables - replace the example below with your own
-    private int x;
+class Pears{
+    public static void main (String args []){
+        Scanner bobby = new Scanner (System.in);
+        
+        int women, men, population; // Can change int to double
+        women = 8; // Input your own numbers
+        men = 4; // Input your own numbers
+        population = women * men; // Choose action: +, -, *, %, or =
+        System.out.println(population);
 
-    /**
-     * Constructor for objects of class Pears
-     */
-    public Pears()
-    {
-        // initialise instance variables
-        x = 0;
-    }
+    
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
     }
 }

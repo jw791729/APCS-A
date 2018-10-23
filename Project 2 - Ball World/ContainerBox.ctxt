@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ContainerBox
+comment0.text=\r\n\ A\ rectangular\ container\ box,\ containing\ the\ bouncing\ ball.\ \ \r\n
+comment1.params=x\ y\ width\ height\ colorFilled\ colorBorder
+comment1.target=ContainerBox(int,\ int,\ int,\ int,\ java.awt.Color,\ java.awt.Color)
+comment1.text=Constructors
+comment2.params=x\ y\ width\ height
+comment2.target=ContainerBox(int,\ int,\ int,\ int)
+comment2.text=Constructor\ with\ the\ default\ color
+comment3.params=x\ y\ width\ height
+comment3.target=void\ set(int,\ int,\ int,\ int)
+comment3.text=Set\ or\ reset\ the\ boundaries\ of\ the\ box.
+comment4.params=g
+comment4.target=void\ draw(java.awt.Graphics)
+comment4.text=Draw\ itself\ using\ the\ given\ graphic\ context.
+numComments=5

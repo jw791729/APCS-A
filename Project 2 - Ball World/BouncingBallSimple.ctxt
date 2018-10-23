@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BouncingBallSimple
+comment0.text=\r\n\ One\ ball\ bouncing\ inside\ a\ rectangular\ box.\ \r\n\ All\ codes\ in\ one\ file.\ Poor\ design\!\r\n
+comment1.params=
+comment1.target=BouncingBallSimple()
+comment1.text=Constructor\ to\ create\ the\ UI\ components\ and\ init\ game\ objects.
+comment2.params=
+comment2.target=void\ run()
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment3.text=Custom\ rendering\ codes\ for\ drawing\ the\ JPanel
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=main\ program\ (entry\ point)
+comment5.params=
+comment5.target=void\ run()
+numComments=6

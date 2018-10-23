@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BallWorld
+comment0.text=\r\n\ The\ control\ logic\ and\ main\ display\ panel\ for\ game.\r\n
+comment1.params=width\ height
+comment1.target=BallWorld(int,\ int)
+comment1.text=\r\n\ Constructor\ to\ create\ the\ UI\ components\ and\ init\ the\ game\ objects.\r\n\ Set\ the\ drawing\ canvas\ to\ fill\ the\ screen\ (given\ its\ width\ and\ height).\r\n\ \r\n\ @param\ width\ \:\ screen\ width\r\n\ @param\ height\ \:\ screen\ height\r\n
+comment2.params=e
+comment2.target=void\ componentResized(java.awt.event.ComponentEvent)
+comment3.params=
+comment3.target=void\ gameStart()
+comment3.text=Start\ the\ ball\ bouncing.
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ gameUpdate()
+comment5.text=\ \r\n\ One\ game\ time-step.\ \r\n\ Update\ the\ game\ objects,\ with\ proper\ collision\ detection\ and\ response.\r\n
+numComments=6

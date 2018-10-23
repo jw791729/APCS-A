@@ -11,12 +11,14 @@ import java.util.Scanner;
 class Pears{
     public static void main (String args []){
         Scanner bobby = new Scanner (System.in);
+        double fNum, sNum, Answer;
+        System.out.println("Enter 1st #: ");
+        fNum = bobby.nextDouble();
+        System.out.println("Enter 2nd #: ");
+        sNum = bobby.nextDouble();
+        Answer = fNum + sNum;
+        System.out.println(Answer);
         
-        int women, men, population; // Can change int to double
-        women = 8; // Input your own numbers
-        men = 4; // Input your own numbers
-        population = women * men; // Choose action: +, -, *, %, or =
-        System.out.println(population);
 
     
 

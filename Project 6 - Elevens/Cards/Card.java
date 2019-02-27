@@ -100,7 +100,7 @@ public class Card {
      */
     @Override
     public String toString() {
-        return rank + " of " + suit + " (point value = " + pointValue
+        return rank + " of " + suit + " (point value = " + pointValue + ")";
 
     }
 }
